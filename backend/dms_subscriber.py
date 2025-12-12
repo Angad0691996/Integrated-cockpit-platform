@@ -3,9 +3,12 @@ import websocket
 import json
 from datetime import datetime
 import socketio
+from datetime import datetime
+import pytz
 
 sio = socketio.Client()
-LOG_FILE = "DMS_logging.txt"
+LOG_FILE = "logs/DMS_logging.txt"
+IST = pytz.timezone("Asia/Kolkata")
 
 TB_HOST = "https://thingsboard.cloud"
 USERNAME = "rutuja.arekar@samsanlabs.com"
@@ -41,7 +44,7 @@ def on_message(ws, message):
 
     for key, values in data["data"].items():
         for entry in values:
-            ts = datetime.fromtimestamp(entry[0] / 1000)
+            ts = datetime.fromtimestamp(entry[0] / 1000, tz=IST)
             val = entry[1]
 
             if str(val).strip() == "0":

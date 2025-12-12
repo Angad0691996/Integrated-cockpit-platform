@@ -3,10 +3,12 @@ import ssl
 import json
 from datetime import datetime
 import socketio
-
+import pytz
 sio = socketio.Client()
 
-LOG_FILE = "SDV_mobile_logs.txt"
+
+
+LOG_FILE = "logs/SDV_mobile_logs.txt"
 
 awshost = "a1w5rvqhps48wc-ats.iot.ap-south-1.amazonaws.com"
 awsport = 8883

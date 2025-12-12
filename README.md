@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚗 SDV + DMS Real-Time Telemetry Dashboard  
 A unified cockpit logging and visualization system that streams **SDV (vehicle controls)** and **DMS (driver monitoring system)** events in real-time using Python backend + React frontend.
 
@@ -231,3 +232,7 @@ AWS | Azure | MQTT | Python | React Dashboards
 ---
 
 # ✅ End of README
+=======
+# Integrated-cockpit-platform
+The repo contains the SDV as in umbrella factors as SDV and DMS logs starting with version1
+>>>>>>> 51719bbf3d36c6e6e5f1f6e46ff9563d0f54a40a

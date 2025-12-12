@@ -98,3 +98,14 @@
 [2025-12-11 14:39:48] Topic: carDoor/status | Data: {'status': '1', 'doortype': 'RearLeftDoor', 'message': 'Open'}
 [2025-12-11 14:39:54] Topic: carDoor/status | Data: {'status': '0', 'doortype': 'RearLeftDoor', 'message': 'Close'}
 [2025-12-11 14:39:58] Topic: carDoor/status | Data: {'status': '0', 'doortype': 'DOOR', 'message': 'Unsubscribe'}
+[2025-12-11 15:11:40] Topic: carDoor/status | Data: {'status': '1', 'doortype': 'TPMS', 'message': 'Subscribe'}
+[2025-12-11 15:11:42] Topic: carDoor/status | Data: {'status': '0', 'doortype': 'TPMS', 'message': 'Unsubscribe'}
+[2025-12-11 15:11:44] Topic: carDoor/status | Data: {'status': '1', 'doortype': 'LDW', 'message': 'Subscribe'}
+[2025-12-11 15:11:45] Topic: carDoor/status | Data: {'status': '0', 'doortype': 'LDW', 'message': 'Unsubscribe'}
+[2025-12-11 15:11:47] Topic: carDoor/status | Data: {'status': '1', 'doortype': 'DOOR', 'message': 'Subscribe'}
+[2025-12-11 15:11:50] Topic: carDoor/status | Data: {'status': '1', 'doortype': 'FrontLeftDoor', 'message': 'Open'}
+[2025-12-11 15:11:50] Topic: carDoor/status | Data: {'status': '0', 'doortype': 'FrontLeftDoor', 'message': 'Close'}
+[2025-12-11 15:11:51] Topic: carDoor/status | Data: {'status': '1', 'doortype': 'FrontRightDoor', 'message': 'Open'}
+[2025-12-11 15:11:53] Topic: carDoor/status | Data: {'status': '0', 'doortype': 'FrontRightDoor', 'message': 'Close'}
+[2025-12-11 15:11:54] Topic: carDoor/status | Data: {'status': '1', 'doortype': 'TrunkLock', 'message': 'Open'}
+[2025-12-11 15:11:54] Topic: carDoor/status | Data: {'status': '0', 'doortype': 'TrunkLock', 'message': 'Close'}
